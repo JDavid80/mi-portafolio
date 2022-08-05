@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+}
+p {
+    font-size: 1.8;
+}
+p.special {
+    font-style: italic;
+}
+.texto-centrado {
+    text-align: center;
+}
