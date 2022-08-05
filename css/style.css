@@ -41,6 +41,19 @@ p.special {
     justify-content: center;
     align-items: center;
 }
+.prueba-fuente {
+    margin-top: 100px;
+    font-size: 32px;
+}
+.font-parrafo {
+    font-size: .5em;
+}
+/* Dar color a un contenedor */
+.special-color {
+    background-color: rgb(150,25,78);
+    width: 300px;
+    height: 300px;
+}
 /* cinzel-regular - latin */
 @font-face {
     font-family: 'Cinzel';
