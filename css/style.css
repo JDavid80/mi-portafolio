@@ -3,57 +3,32 @@
     padding: 0;
 }
 h1 {
-    color: red;
-}
-p {
-    font-size: 1.8;
-}
-p.special {
-    font-style: italic;
-}
-.texto-centrado {
+    margin-top: 30px;
     text-align: center;
 }
-.texto-movie {
+h2 {
     text-align: center;
-    font-size: 4em;
-    font-family: Cinzel, sans-serif;
-    color: rgb(240,240,240,.9);
+    margin-bottom: 30px;
 }
-.texto-movie2 {
-    font-family: 'Bebas Neue';
-    font-size: 5em;
-    color: red;
+h3 {
+    text-align:center;
 }
-.style-gt {
-    background-color: rgb(24,24,24);
-    height: 100vh;
+.main-content-img {
     width: 100%;
+}
+.box-img {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 800px;
+    background-color: red;
+    margin: 0 auto;
 }
-.style-netflix {
-   background-color: rgb(48,48,48);
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.img-catalogo {
+    width: 800px;
 }
-.prueba-fuente {
-    margin-top: 100px;
-    font-size: 32px;
-}
-.font-parrafo {
-    font-size: .5em;
-}
-/* Dar color a un contenedor */
-.special-color {
-    background-color: rgb(150,25,78);
-    width: 300px;
-    height: 300px;
-}
+
+
 /* cinzel-regular - latin */
 @font-face {
     font-family: 'Cinzel';
