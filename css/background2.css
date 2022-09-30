@@ -9,11 +9,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 @media only screen and (max-width: 600px) {
     .main-content {
         background-image: url("../img/torre-big-ben_835x1057.jpg");
         background-size: cover;
-        background-position: center left;
+        background-position: center right;
     }
 }
